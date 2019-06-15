@@ -1,0 +1,23 @@
+{
+  "name": "requestvalidator",
+  "version": "1.0.0",
+  "description": "用于拦截axios请求,并对请求参数进行校验,防止提交非法值",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Echi1993/requestValidator.git"
+  },
+  "author": "Echi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Echi1993/requestValidator/issues"
+  },
+  "homepage": "https://github.com/Echi1993/requestValidator#readme",
+  "dependencies": {
+    "async-validator": "^1.11.0",
+    "axios": "^0.18.0"
+  }
+}
